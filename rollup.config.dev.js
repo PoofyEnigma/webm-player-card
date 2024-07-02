@@ -3,7 +3,7 @@ import typescript from 'rollup-plugin-typescript2';
 import serve from 'rollup-plugin-serve';
 
 export default {
-  input: ['src/config-template-card.ts'],
+  input: ['src/webm-player-card.ts'],
   output: {
     dir: './dist',
     format: 'es',
